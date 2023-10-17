@@ -30,10 +30,10 @@ is_published = True
 ```
 **In the above example,**
 
-• price is an integer (a whole number without a decimal point)
+• ``price`` is an integer (a whole number without a decimal point)
 
-• rating is a float (a number with a decimal point)
+• ``rating`` is a float (a number with a decimal point)
 
-• blog_name is a string (a sequence of characters)
+• ``blog_name`` is a string (a sequence of characters)
 
-• is_published is a boolean. Boolean values can be True or False.
+• ``is_published`` is a boolean. Boolean values can be True or False.
