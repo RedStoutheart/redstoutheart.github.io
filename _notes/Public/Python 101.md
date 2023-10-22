@@ -49,18 +49,20 @@ print('Weight in lb: ')
 print(weight_kg)
 ```
 
-```
-indexes
-in python indexes start from 0.
-this value can be - this means index starts from the end of the string
+
+**Indexes:**
+In python indexes start from 0.
+this value can be (-) this means index starts from the end of the string
 ``print(variable[:])`` 
-```
+
+
 There are two ways to add variables in a string:
 **Ane of them is using + command.**
-*As shown in ***message*** *variable*:
+*As shown in* ***message*** *variable*:
 **Another one is f string method**
 In this method instead of opening and closing the string and adding them one by one, we just open some *holes* in the string with {} 
-*As shown in ***msg*** *variable*:
+*As shown in* ***msg*** *variable*:
+
 ```
 first_name = 'Yigit'  
 last_name = 'Olcar'  
@@ -69,9 +71,13 @@ msg = f'{first_name} [{last_name}] is a coder'
 print(msg)  
 print(message)
 ```
+
 In this case when print command occurred both msg and message variables will have the same string values. 
+
 ******
-Example for methods in python: 
+
+Examples for **methods** in python: 
+
 ```
 course = 'python for beginners is here heheheh lol'  
 print(len(course))  
@@ -82,10 +88,13 @@ print(course.find('b'))
 print(course.replace('beginners','ABSOLUTE vodka'))  
 print('python' in course)
 ```
+
 *********
+
 **If, Elif, Else**
 A simple program for identification for:
 If an applicant has good or bad credit to calculate the down payment value and the final discounted price.
+
 ```
 price: int = 1000000  
 buyer_credit = input('is your credit good')  
@@ -112,7 +121,9 @@ is your credit good no
 price of the house is 1000000 $
 Payment: $900000.0
 ```
+
 *********
+
 Logical Contitions:
 
 - Or/ at least one true
@@ -195,7 +206,9 @@ name must be at lest 3 characters long
 Write a name: ttttttttttttttttttttttttttttttttttttttttttttttttttt
 name can be a maximum of 50 characters
 ```
+
 *********
+
 **Weight converter**
 In this converted the variables are asked to the user with *input()* command
 ```
@@ -232,7 +245,9 @@ Weight: 64
 (L)bs or (K)g: x
 Write K or L!
 ```
+
 ********
+
 **While loops**
 While loops are used for looping the code until a condition is reached:
 As shown below variable `i` is equal to 1 at  first and a while loop is introduced which increases `i` one at a time until it reaches the final value of 5 and prints done at the end to show "loop is finished and is terminated" to the user.
@@ -263,7 +278,9 @@ Then the terminal after the Run will look like:
 *****
 done
 ```
+
 **********
+
 ***Guessing game***
 Made with the codes that I have learned:
 ```
