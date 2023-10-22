@@ -114,7 +114,9 @@ Payment: $900000.0
 ```
 *********
 Logical Contitions:
+
 - Or/ at least one true
+
 ```
 has_high_income = False  
 has_good_credit = True 
@@ -122,11 +124,13 @@ has_good_credit = True
 if has_good_credit or has_high_income:  
     print("Eligible for loan")
 ```
-
+Run:
 ```
 Eligible for loan
 ```
+
 - And/ both are true
+
 ```
 has_high_income = True  
 has_good_credit = True
@@ -134,11 +138,13 @@ has_good_credit = True
 if has_good_credit and has_high_income:  
     print("Eligible for loan")
 ```
-
+Run:
 ```
 Eligible for loan
 ```
+
 - Not/ inverses boolean values
+
 ```
 has_criminal_record = True  
 has_good_credit = False  
@@ -150,9 +156,12 @@ if has_good_credit and not has_criminal_record:
 ```
 Eligible for loan
 ```
+
 *********
+
 Comparison Conditions:
 Used for making a boolean value at the end
+
 ```
 <   --->  smaller than
 <=  --->  smaller than or equal to
@@ -161,6 +170,7 @@ Used for making a boolean value at the end
 ```
 
 Note len() gives the number of characters in a strings
+
 ```
 name = input("Write a name: ")
 if len(name) <= 3:  
