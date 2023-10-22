@@ -281,7 +281,7 @@ done
 
 **********
 
-***Guessing game***
+***Guessing game***<br>
 Made with the codes that I have learned:
 ```
 secret_number = 9  
