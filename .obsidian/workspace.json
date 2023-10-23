@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Simple Programs Made with Python.md",
+                "file": "_notes/Public/Python 101.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Simple Programs Made with Python.md",
+                "file": "_notes/Public/Python 101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Simple Programs Made with Python.md",
+                "file": "_notes/Public/Python 101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Simple Programs Made with Python.md"
+                "file": "_notes/Public/Python 101.md"
               }
             }
           }
@@ -146,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5563910ec7e53356",
+  "active": "9e62f4bc84f6a694",
   "lastOpenFiles": [
+    "_notes/Public/Simple Programs Made with Python.md",
     "pages/404.md",
     "_posts/2020-03-01-features.md",
     "pages/posts.md",
-    "_notes/Public/Simple Programs Made with Python.md",
     "_notes/Public/Python 101.md",
     "_notes/Public/Credits.md",
     "_notes/Public/Markdown Rendered.md",

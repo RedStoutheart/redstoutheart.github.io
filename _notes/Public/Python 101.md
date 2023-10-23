@@ -301,4 +301,4 @@ quit - to exit
         print("I don't understand that")
 ```
  
-`` While True:`` means as long as the condition  of loop is true and works as intended it will continue to run itself
+`` While True:`` means as long as the condition  of loop is true and works as intended it will continue to run itself.
