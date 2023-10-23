@@ -209,44 +209,6 @@ name can be a maximum of 50 characters
 
 *********
 
-**Weight converter**
-In this converted the variables are asked to the user with *input()* command
-```
-weight = float(input('Weight: '))  
-conv = input("(L)bs or (K)g: ") 
-
-if conv.upper() == "K":  
-    var = weight * 2.20  
-    print(f"You are {var} pounds")  
-  
-elif conv.upper() == "L":  
-    var = weight * 0.45  
-    print(f"You are {var} kilos")  
-  
-else:  
-    print("write K or L")
-
-```
-1st Run
-```
-Weight: 78
-(L)bs or (K)g: l
-You are 35.1 kilos
-```
-2nd Run
-```
-Weight: 31.1
-(L)bs or (K)g: k
-You are 68.42 pounds
-```
-3rd Run
-```
-Weight: 64
-(L)bs or (K)g: x
-Write K or L!
-```
-
-********
 
 **While loops**
 While loops are used for looping the code until a condition is reached:
@@ -316,3 +278,27 @@ Guess: 5
 Guess: 9
 you won!
 ```
+
+***********
+Car Engine Game
+```
+command = ''  
+while True:  
+    command = input('>  ').lower()  
+    if command == 'help':  
+        print("""  
+start - start the car  
+stop - stop the car  
+quit - to exit  
+        """)  
+    elif command == 'start':  
+        print('Car started...Ready to go!')  
+    elif command == 'stop':  
+        print('Car stopped.')  
+    elif command == 'quit':  
+        break  
+    else:  
+        print("I don't understand that")
+```
+ 
+`` While True:`` means as long as the condition  of loop is true and works as intended it will continue to run itself
