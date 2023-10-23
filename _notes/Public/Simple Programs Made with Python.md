@@ -4,10 +4,7 @@ feed: show
 date: 23-10-2023
 ---
 In this page I will show you some examples for simple programs that i made along the way of learning python
-
-
-
-
+<br><br><br><br><br><br>
 **Weight converter**
 
 ```
