@@ -5,6 +5,44 @@ date: 23-10-2023
 ---
 <font size="+3">In this page I will show you some examples for simple programs that I made along the way of learning python</font>
 <br><br><br><br><br><br>
+
+******
+<font size="+3">Guessing game</font><br>
+Made with the codes that I have learned:
+```
+secret_number = 9  
+guess_count = 0  
+guess_limit = 3  
+while guess_count < guess_limit:  
+    guess = int(input('Guess: '))  
+    guess_count += 1  
+    if guess == secret_number:  
+        print('you won!')  
+        break  
+else:  
+    print('Sorry you failed:(')
+```
+1st Run:
+```
+Guess: 1
+Guess: 2
+Guess: 3
+Sorry you failed:(
+```
+2nd Run:
+```
+Guess: 1
+Guess: 2
+Guess: 9
+you won!
+```
+3rd Run:
+```
+Guess: 5
+Guess: 9
+you won!
+```
+*******
 <font size="+3">Weight converter</font>:
 <br>
 ```
