@@ -278,25 +278,3 @@ you won!
 ```
 
 ***********
-Car Engine Game
-```
-command = ''  
-while True:  
-    command = input('>  ').lower()  
-    if command == 'help':  
-        print("""  
-start - start the car  
-stop - stop the car  
-quit - to exit  
-        """)  
-    elif command == 'start':  
-        print('Car started...Ready to go!')  
-    elif command == 'stop':  
-        print('Car stopped.')  
-    elif command == 'quit':  
-        break  
-    else:  
-        print("I don't understand that")
-```
- 
-`` While True:`` means as long as the condition  of loop is true and works as intended it will continue to run itself.
