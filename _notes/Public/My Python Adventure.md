@@ -1,5 +1,5 @@
 ---
-title: Python 101
+title: My Python Adventure
 feed: show
 date: 17-10-2023
 ---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Python 101.md",
+                "file": "_notes/Public/My Python Adventure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Python 101.md",
+                "file": "_notes/Public/My Python Adventure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Python 101.md",
+                "file": "_notes/Public/My Python Adventure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Python 101.md"
+                "file": "_notes/Public/My Python Adventure.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "5563910ec7e53356",
   "lastOpenFiles": [
     "_notes/Public/Simple Programs Made with Python.md",
-    "_notes/Public/Python 101.md",
+    "_notes/Public/My Python Adventure.md",
     "pages/404.md",
     "_posts/2020-03-01-features.md",
     "pages/posts.md",
