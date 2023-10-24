@@ -4,8 +4,8 @@ feed: show
 date: 17-10-2023
 ---
 *********
-This is the page that I will share my adventure along the way of learning **python**.
-<br><br><br><br><br><br>
+<font size="+3">This is the page that I will share my adventure along the way of learning python.
+</font><br><br><br><br><br><br>
 The definition of a computer is "an electronic device that **manipulates information, or data** in a dictionary" basically it is a machine that processes data just like all the other machines. Based on this mindset we can relate computers working principle with the functions in mathematics. ***f(x)= 2x+5*** meaning in order to find ***f(x)*** the variable ***x*** should be multiplied by ***2*** and aded ***5*** to that multiplication. Essentially functions are there to "**manipulate information, or data**" for you in a program with a lot of them bonded together. 
 <br>
 ```
@@ -241,7 +241,7 @@ done
 
 **********
 
-***Guessing game***<br>
+<font size="+2">Guessing game</font><br>
 Made with the codes that I have learned:
 ```
 secret_number = 9  

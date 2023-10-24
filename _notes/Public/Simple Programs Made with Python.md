@@ -3,10 +3,10 @@ title: Simple Programs Made With Python
 feed: show
 date: 23-10-2023
 ---
-In this page I will show you some examples for simple programs that i made along the way of learning python
+<font size="+3">In this page I will show you some examples for simple programs that I made along the way of learning python</font>
 <br><br><br><br><br><br>
-**Weight converter**
-
+<font size="+3">Weight converter</font>:
+<br>
 ```
 weight = float(input('Weight: '))  
 conv = input("(L)bs or (K)g: ") 
@@ -43,8 +43,8 @@ Write K or L!
 ```
 
 ********
-**Car Engine Game:**
-
+<font size="+3">Car Engine Game:</font>
+<br>
 ```
 command = ''  
 s_tarted = False  
