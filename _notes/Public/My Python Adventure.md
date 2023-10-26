@@ -8,7 +8,7 @@ date: 17-10-2023
 </font><br><br><br><br><br><br>
 The definition of a computer is "an electronic device that **manipulates information, or data** in a dictionary" basically it is a machine that processes data just like all the other machines. Based on this mindset we can relate computers working principle with the functions in mathematics. ***f(x)= 2x+5*** meaning in order to find ***f(x)*** the variable ***x*** should be multiplied by ***2*** and aded ***5*** to that multiplication. Essentially functions are there to "**manipulate information, or data**" for you in a program with a lot of them bonded together. 
 <br>
-```
+```c
 print("Hello World")
 ```
 Is the simplest form of function in **Python** it is used for writing the string (a sequence of characters) to the launcher window.
@@ -17,7 +17,7 @@ Is the simplest form of function in **Python** it is used for writing the string
 In addition to functions there are some other term as well: **Variables** 
 We use variables to temporarily store data in computer’s memory.
 
-```
+```c
 price = 31
 
 rating = 6.9
@@ -40,7 +40,7 @@ is_published = True
 
 *********
 Simple Weight Converter (kg to lbs):
-```
+```c
 weight_lbs = int(input('What is your weight in terms of kg: '))  
 weight_kg: float = weight_lbs * 2.2  
 print('Weight in lb: ')  
@@ -61,7 +61,7 @@ There are two ways to add variables in a string:
 In this method instead of opening and closing the string and adding them one by one, we just open some *holes* in the string with {} 
 *As shown in* ***msg*** *variable*:
 
-```
+```c
 first_name = 'Yigit'  
 last_name = 'Olcar'  
 message = first_name + ' [' + last_name + '] is a coder'  
@@ -76,7 +76,7 @@ In this case when print command occurred both msg and message variables will hav
 
 Examples for **methods** in python: 
 
-```
+```c
 course = 'python for beginners is here heheheh lol'  
 print(len(course))  
 print(course.upper())  
@@ -93,7 +93,7 @@ print('python' in course)
 A simple program for identification for:
 If an applicant has good or bad credit to calculate the down payment value and the final discounted price.
 
-```
+```c
 price: int = 1000000  
 buyer_credit = input('is your credit good')  
 if buyer_credit.lower() == 'yes':  
@@ -126,7 +126,7 @@ Logical Contitions:
 
 - Or/ at least one true
 
-```
+```c
 has_high_income = False  
 has_good_credit = True 
 
@@ -154,7 +154,7 @@ Eligible for loan
 
 - Not/ inverses boolean values
 
-```
+```c
 has_criminal_record = True  
 has_good_credit = False  
   
@@ -171,7 +171,7 @@ Eligible for loan
 Comparison Conditions:
 Used for making a boolean value at the end
 
-```
+```c
 <   --->  smaller than
 <=  --->  smaller than or equal to
 >   --->  greter than
@@ -180,7 +180,7 @@ Used for making a boolean value at the end
 
 Note len() gives the number of characters in a strings
 
-```
+```c
 name = input("Write a name: ")
 if len(name) <= 3:  
     print('name must be at lest 3 characters long')  
@@ -211,7 +211,7 @@ name can be a maximum of 50 characters
 **While loops**
 While loops are used for looping the code until a condition is reached:
 As shown below variable `i` is equal to 1 at  first and a while loop is introduced which increases `i` one at a time until it reaches the final value of 5 and prints done at the end to show "loop is finished and is terminated" to the user.
-```
+```c
 i = 1  
 while i <= 5:  
     print(i)  

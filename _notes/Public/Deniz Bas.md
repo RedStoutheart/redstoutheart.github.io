@@ -5,10 +5,11 @@ date: 24-10 2023
 ---
 
 <br>
-<font size="+5">Dogum gunun kutlu olsun Deniz Bas / Oliver Brown
+<font size="+5">Dogum gunun kutlu olsun<br> Deniz Bas / Oliver Brown
 </font>
+
 <br>
-```
+```c
 birth_day = int(input('Enter Your Age: '))  
 if birth_day == 18:  
     print("""  

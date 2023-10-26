@@ -9,7 +9,7 @@ date: 23-10-2023
 ******
 <font size="+3">Guessing game</font><br>
 Made with the codes that I have learned:
-```
+```c
 secret_number = 9  
 guess_count = 0  
 guess_limit = 3  
@@ -45,7 +45,7 @@ you won!
 *******
 <font size="+3">Weight converter</font>:
 <br>
-```
+```c
 weight = float(input('Weight: '))  
 conv = input("(L)bs or (K)g: ") 
 
@@ -83,7 +83,7 @@ Write K or L!
 ********
 <font size="+3">Car Engine Game:</font>
 <br>
-```
+```c
 command = ''  
 s_tarted = False  
 while True:  
