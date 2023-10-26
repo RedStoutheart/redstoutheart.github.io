@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3399441f3a6d3e85",
+        "id": "5852556ce0a3f79c",
         "type": "tabs",
         "children": [
           {
-            "id": "f4b55b194d600a3e",
+            "id": "aac010409149b72b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md",
+                "file": "_notes/Public/Deniz Bas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md",
+                "file": "_notes/Public/Deniz Bas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md",
+                "file": "_notes/Public/Deniz Bas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md"
+                "file": "_notes/Public/Deniz Bas.md"
               }
             }
           }
@@ -146,14 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e62f4bc84f6a694",
+  "active": "aac010409149b72b",
   "lastOpenFiles": [
-    "_notes/Public/Simple Programs Made with Python.md",
     "_notes/Public/My Python Adventure.md",
+    "_notes/Public/Deniz Bas.md",
+    "_notes/Public/Credits.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
+    "_notes/Public/Simple Programs Made with Python.md",
     "pages/404.md",
     "_posts/2020-03-01-features.md",
     "pages/posts.md",
-    "_notes/Public/Credits.md",
     "_notes/Public/Markdown Rendered.md",
     "_notes/Public/Welcome to the garden.md",
     "pages/blog.md",
