@@ -13,10 +13,10 @@ Made with the codes that I have learned:
 secret_number = 9  
 guess_count = 0  
 guess_limit = 3  
-while guess_count < guess_limit:  
-    guess = int(input('Guess: '))  
+while guess_count < guess_limit:
+    guess = int(input('Guess: '))
     guess_count += 1  
-    if guess == secret_number:  
+    if guess == secret_number:
         print('you won!')  
         break  
 else:  
@@ -88,31 +88,31 @@ command = ''
 s_tarted = False  
 while True:  
     command = input('> ').lower()  
-  
+     
     if command == 'start':  
         if s_tarted:  
-            print('Car is already started!')  
+            print('Car is already started!')
         else:  
             s_tarted = True  
-            print('Car started...Ready to go!')  
-  
+            print('Car started...Ready to go!')
+            
     elif command == 'stop':  
         if not s_tarted:  
-            print('Car is already stopped!')  
+            print('Car is already stopped!')
         else:  
             s_tarted = False  
             print('Car stopped.')  
-  
+            
     elif command == 'help':  
-        print("""start - start the car  
+        print("""start - start the car
 stop - stop the car  
 quit - to exit""")  
   
     elif command == 'quit':  
         break  
-  
+        
     else:  
-        print("I don't understand that")  
+        print("I don't understand that")
   
 print("\033[32;5m\n"  
       "THANK YOU FOR PLAYING")

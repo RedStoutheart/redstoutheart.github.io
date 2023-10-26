@@ -64,7 +64,7 @@ In this method instead of opening and closing the string and adding them one by 
 ```c
 first_name = 'Yigit'  
 last_name = 'Olcar'  
-message = first_name + ' [' + last_name + '] is a coder'  
+message = first_name + ' [' + last_name + '] is a coder'
 msg = f'{first_name} [{last_name}] is a coder'  
 print(msg)  
 print(message)
@@ -77,13 +77,13 @@ In this case when print command occurred both msg and message variables will hav
 Examples for **methods** in python: 
 
 ```c
-course = 'python for beginners is here heheheh lol'  
+course = 'python for beginners is here heheheh lol'
 print(len(course))  
 print(course.upper())  
 print(course.lower())  
 print(course)  
 print(course.find('b'))  
-print(course.replace('beginners','ABSOLUTE vodka'))  
+print(course.replace('beginners','ABSOLUTE vodka'))
 print('python' in course)
 ```
 
@@ -95,14 +95,14 @@ If an applicant has good or bad credit to calculate the down payment value and t
 
 ```c
 price: int = 1000000  
-buyer_credit = input('is your credit good')  
+buyer_credit = input('is your credit good')
 if buyer_credit.lower() == 'yes':  
     print('20% decreased is')  
     down_payment = 0.2 * price  
 elif buyer_credit.lower() == 'no':  
     print('10% decreased is')  
     down_payment = 0.1 * price  
-print(f"price of the house is {price} $")  
+print(f"price of the house is {price} $")
 print(f"Payment: ${price - down_payment}")
 ```
 1st Run:
@@ -130,7 +130,7 @@ Logical Contitions:
 has_high_income = False  
 has_good_credit = True 
 
-if has_good_credit or has_high_income:  
+if has_good_credit or has_high_income:
     print("Eligible for loan")
 ```
 Run:
@@ -158,7 +158,7 @@ Eligible for loan
 has_criminal_record = True  
 has_good_credit = False  
   
-if has_good_credit and not has_criminal_record:  
+if has_good_credit and not has_criminal_record:
     print("Eligible for loan")
 ```
 
@@ -183,9 +183,9 @@ Note len() gives the number of characters in a strings
 ```c
 name = input("Write a name: ")
 if len(name) <= 3:  
-    print('name must be at lest 3 characters long')  
+    print('name must be at lest 3 characters long')
 elif len(name) >= 50:  
-    print("name can be a maximum of 50 characters")  
+    print("name can be a maximum of 50 characters")
 else:  
     print("✓")
 ```
