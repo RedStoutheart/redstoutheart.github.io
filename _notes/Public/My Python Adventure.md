@@ -241,3 +241,302 @@ done
 
 **********
 
+For Loops
+```c
+for i in 'Pyhton':  
+    print(i)
+```
+
+
+In for loop two variables are needed ``for `i` in `numbers`:`` i variable is used only in the loop for iterating the list given in the second variable, `numbers`.
+
+For loops = execute a block of code a fixed number of times .
+You can iterate over a range, string, sequence, list etc.
+
+Shopping List Summation:
+```c
+prices = [10, 20, 30]  
+total = 0  
+for price in prices:  
+    total = total + price  
+print(f"Total:{total}")
+```
+Run
+```
+Total:60
+```
+
+*********
+
+```c
+sayilar = [20, 30, 60]  
+sum = 0  
+for sayi in sayilar:  
+  sum = sum + sayi  
+  print("Sayi:", sayi)  
+  print("Sum:", sum)
+```
+
+
+```c
+numbers = [1, 4, 9, 5, 8]  
+max = numbers[0]  
+for number in numbers:  
+    if number > max:  
+        max = number  
+print(max)
+```
+
+```c
+numbers = [3, 5, 8, 0, 79, 9, 4, 1, 7]  
+max = numbers[0]  
+for i in numbers:  
+    if max < i:  
+        max = i  
+print(max)
+```
+
+*******
+
+**Nested looops**
+Loops that are inside one another
+```c
+for x in range(4):  
+    for y in range(3):  
+        print(f"({x}, {y})")
+```
+  
+```c
+numbers = [2, 2, 2, 2, 5]  
+for x_count in numbers:  
+    output = ''  
+    for count in range(x_count):  
+        output = output + 'x'  
+    print(output)  
+
+```
+
+********
+2D Lists
+```c
+matrix = [  
+    [1, 2, 3],  
+    [4, 5, 6],  
+    [7, 8, 9]  
+]  
+for row in matrix:  
+    for item in row:  
+        print(item)
+```
+
+Run:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+****************
+
+```c
+numbers.append(6)       # adds 6 to the end
+
+numbers.insert(0, 6)    # adds 6 at index position of 0
+
+numbers.remove(6)       # removes 6
+
+numbers.pop()           # removes the last item
+
+numbers.clear()         # removes all the items
+
+numbers.index(8)        # returns the index of first occurrence of 8
+
+numbers.sort()          # sorts the list
+
+numbers.reverse()       # reverses the list
+
+numbers.copy()          # returns a copy of the list
+```
+
+*********
+
+```c
+numbers = [1, 4, 9, 5, 8]  
+print(50 in numbers)
+```
+Run
+```
+False
+```
+
+**********
+
+
+```c
+numbers = [1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7]  
+unique = []  
+for number in numbers:  
+    if number not in unique:  
+        unique.append(number)  
+print(unique)
+```
+Or
+```c
+numbers = [1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7]  
+numbers2 = numbers.copy()  
+  
+for number in numbers2:  
+    if numbers.count(number) > 1:  
+        numbers.remove(number)  
+  
+print(numbers)
+```
+Or
+```c
+numbers = [1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7]  
+numbers2 = numbers.copy()  
+  
+for number in numbers2:  
+    if number in numbers:  
+        numbers.remove(number)  
+  
+print(numbers)
+```
+***********
+
+```c
+Tuples
+
+They are like read-only lists. We use them to store a list of items. But once we
+
+define a tuple, we cannot add or remove items or change the existing items.
+
+coordinates = (1, 2, 3)
+
+We can unpack a list or a tuple into separate variables:
+
+coordinates = (1, 2, 3)  
+x = coordinates[0]  
+y = coordinates[2]  
+z = coordinates[3]  
+  
+x, y, z = coordinates
+
+```
+
+
+*********
+
+Emoji Converter
+```c
+message = input(">")  
+words = message.split(' ')  
+emojis = {  
+    ":)": "😃",  
+    ":(": "😧"  
+}  
+output = ''  
+for word in words:  
+    output+= emojis.get(word, word) + " "  
+    print(output)
+```
+
+**********
+
+Functions
+```c
+def greet_user(first_name, last_name):  
+    print(f'Hi there {first_name} {last_name}!')  
+    print('Welcome aboard')  
+  
+  
+print("Start")  
+greet_user(last_name="bas", first_name="deniz")  
+print("Finish")
+```
+
+
+Emoji Converter with making it a function to make that code reusable
+```c
+def emoji_converter(message):  
+    words = message.split(' ')  
+    emojis = {  
+        ":)": "😃",  
+        ":(": "😧"  
+    }  
+    output = ''  
+    for word in words:  
+        output += emojis.get(word, word) + " "  
+    return output  
+  
+  
+message = input(">")  
+print(emoji_converter(message))
+```
+
+*******
+Managing errors
+
+We use try and except in order to manage errors.
+We don't want our code to crash, so we make some exceptions for it not to crash.
+```c
+try:  
+    age = int(input('Age: '))  
+    print(age)  
+except ValueError:  
+    print('Invalid Value!!!')
+```
+
+```c
+try:  
+    age = int(input('Age: '))  
+    income = 20000  
+    risk = income / age  
+    print(age)  
+except ValueError:  
+    print('Invalid Value!!!')  
+except ZeroDivisionError:  
+    print('Age cannot be zero(0)')
+```
+
+**********
+
+***Classes***
+I talked about different types such as integers or boolean values floats etc. 
+Class is how we define different types. For example a point in a two dimensional plane  is neither a boolean nor integer its just a point. Or same thing can be applied to a shopping cart a shopping cart is a shopping cart. 
+With using **Classes** we can define what a point is. We use classes to define new types basically.
+```c
+class Point:  
+    def move(self):  
+        print('move')  
+    def draw(self):  
+        print('draw')  
+  
+point1 = Point()  
+point1.x = 10  
+point1.y = 20  
+print(point1.x)  
+  
+point2 = Point()  
+point2.x = 15  
+point2.y = 25  
+print(point2.x)  
+  
+point1.move()  
+point1.draw()
+```
+
+Run
+```
+10
+15
+move
+draw
+```
+
