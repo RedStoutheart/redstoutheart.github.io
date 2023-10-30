@@ -508,6 +508,7 @@ except ZeroDivisionError:
 **********
 
 ***Classes***
+
 I talked about different types such as integers or boolean values floats etc. 
 Class is how we define different types. For example a point in a two dimensional plane  is neither a boolean nor integer its just a point. Or same thing can be applied to a shopping cart a shopping cart is a shopping cart. 
 With using **Classes** we can define what a point is. We use classes to define new types basically.
