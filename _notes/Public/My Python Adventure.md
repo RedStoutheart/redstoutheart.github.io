@@ -17,7 +17,7 @@ Is the simplest form of function in **Python** it is used for writing the string
 In addition to functions there are some other term as well: **Variables** 
 We use variables to temporarily store data in computer’s memory.
 
-```c
+```python
 price = 31
 
 rating = 6.9
@@ -40,7 +40,7 @@ is_published = True
 
 *********
 Simple Weight Converter (kg to lbs):
-```c
+```python
 weight_lbs = int(input('What is your weight in terms of kg: '))  
 weight_kg: float = weight_lbs * 2.2  
 print('Weight in lb: ')  
@@ -61,7 +61,7 @@ There are two ways to add variables in a string:
 In this method instead of opening and closing the string and adding them one by one, we just open some *holes* in the string with {} 
 *As shown in* ***msg*** *variable*:
 
-```c
+```python
 first_name = 'Yigit'  
 last_name = 'Olcar'  
 message = first_name + ' [' + last_name + '] is a coder'
@@ -76,7 +76,7 @@ In this case when print command occurred both msg and message variables will hav
 
 Examples for **methods** in python: 
 
-```c
+```python
 course = 'python for beginners is here heheheh lol'
 print(len(course))  
 print(course.upper())  
@@ -93,7 +93,7 @@ print('python' in course)
 A simple program for identification for:
 If an applicant has good or bad credit to calculate the down payment value and the final discounted price.
 
-```c
+```python
 price: int = 1000000  
 buyer_credit = input('is your credit good')
 if buyer_credit.lower() == 'yes':  
@@ -126,7 +126,7 @@ Logical Contitions:
 
 - Or/ at least one true
 
-```c
+```python
 has_high_income = False  
 has_good_credit = True 
 
@@ -154,7 +154,7 @@ Eligible for loan
 
 - Not/ inverses boolean values
 
-```c
+```python
 has_criminal_record = True  
 has_good_credit = False  
   
@@ -171,7 +171,7 @@ Eligible for loan
 Comparison Conditions:
 Used for making a boolean value at the end
 
-```c
+```python
 <   --->  smaller than
 <=  --->  smaller than or equal to
 >   --->  greter than
@@ -180,7 +180,7 @@ Used for making a boolean value at the end
 
 Note len() gives the number of characters in a strings
 
-```c
+```python
 name = input("Write a name: ")
 if len(name) <= 3:  
     print('name must be at lest 3 characters long')
@@ -211,7 +211,7 @@ name can be a maximum of 50 characters
 **While loops**
 While loops are used for looping the code until a condition is reached:
 As shown below variable `i` is equal to 1 at  first and a while loop is introduced which increases `i` one at a time until it reaches the final value of 5 and prints done at the end to show "loop is finished and is terminated" to the user.
-```c
+```python
 i = 1  
 while i <= 5:  
     print(i)  
@@ -242,7 +242,7 @@ done
 **********
 
 For Loops
-```c
+```python
 for i in 'Pyhton':  
     print(i)
 ```
@@ -254,7 +254,7 @@ For loops = execute a block of code a fixed number of times .
 You can iterate over a range, string, sequence, list etc.
 
 Shopping List Summation:
-```c
+```python
 prices = [10, 20, 30]  
 total = 0  
 for price in prices:  
@@ -268,7 +268,7 @@ Total:60
 
 *********
 
-```c
+```python
 sayilar = [20, 30, 60]  
 sum = 0  
 for sayi in sayilar:  
@@ -278,7 +278,7 @@ for sayi in sayilar:
 ```
 
 
-```c
+```python
 numbers = [1, 4, 9, 5, 8]  
 max = numbers[0]  
 for number in numbers:  
@@ -287,7 +287,7 @@ for number in numbers:
 print(max)
 ```
 
-```c
+```python
 numbers = [3, 5, 8, 0, 79, 9, 4, 1, 7]  
 max = numbers[0]  
 for i in numbers:  
@@ -300,13 +300,13 @@ print(max)
 
 **Nested looops**
 Loops that are inside one another
-```c
+```python
 for x in range(4):  
     for y in range(3):  
         print(f"({x}, {y})")
 ```
   
-```c
+```python
 numbers = [2, 2, 2, 2, 5]  
 for x_count in numbers:  
     output = ''  
@@ -318,7 +318,7 @@ for x_count in numbers:
 
 ********
 2D Lists
-```c
+```python
 matrix = [  
     [1, 2, 3],  
     [4, 5, 6],  
@@ -344,7 +344,7 @@ Run:
 
 ****************
 
-```c
+```python
 numbers.append(6)       # adds 6 to the end
 
 numbers.insert(0, 6)    # adds 6 at index position of 0
@@ -366,7 +366,7 @@ numbers.copy()          # returns a copy of the list
 
 *********
 
-```c
+```python
 numbers = [1, 4, 9, 5, 8]  
 print(50 in numbers)
 ```
@@ -378,7 +378,7 @@ False
 **********
 
 
-```c
+```python
 numbers = [1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7]  
 unique = []  
 for number in numbers:  
@@ -387,7 +387,7 @@ for number in numbers:
 print(unique)
 ```
 Or
-```c
+```python
 numbers = [1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7]  
 numbers2 = numbers.copy()  
   
@@ -398,7 +398,7 @@ for number in numbers2:
 print(numbers)
 ```
 Or
-```c
+```python
 numbers = [1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7]  
 numbers2 = numbers.copy()  
   
@@ -413,7 +413,7 @@ print(numbers)
 ```c
 Tuples
 
-They are like read-only lists. We use them to store a list of items. But once we
+They are like read only lists. We use them to store a list of items. But once we
 
 define a tuple, we cannot add or remove items or change the existing items.
 
@@ -434,7 +434,7 @@ x, y, z = coordinates
 *********
 
 Emoji Converter
-```c
+```python
 message = input(">")  
 words = message.split(' ')  
 emojis = {  
@@ -450,7 +450,7 @@ for word in words:
 **********
 
 Functions
-```c
+```python
 def greet_user(first_name, last_name):  
     print(f'Hi there {first_name} {last_name}!')  
     print('Welcome aboard')  
@@ -463,7 +463,7 @@ print("Finish")
 
 
 Emoji Converter with making it a function to make that code reusable
-```c
+```python
 def emoji_converter(message):  
     words = message.split(' ')  
     emojis = {  
@@ -485,7 +485,7 @@ Managing errors
 
 We use try and except in order to manage errors.
 We don't want our code to crash, so we make some exceptions for it not to crash.
-```c
+```python
 try:  
     age = int(input('Age: '))  
     print(age)  
@@ -493,7 +493,7 @@ except ValueError:
     print('Invalid Value!!!')
 ```
 
-```c
+```python
 try:  
     age = int(input('Age: '))  
     income = 20000  
@@ -512,7 +512,7 @@ except ZeroDivisionError:
 I talked about different types such as integers or boolean values floats etc. 
 Class is how we define different types. For example a point in a two dimensional plane  is neither a boolean nor integer its just a point. Or same thing can be applied to a shopping cart a shopping cart is a shopping cart. 
 With using **Classes** we can define what a point is. We use classes to define new types basically.
-```c
+```python
 class Point:  
     def move(self):  
         print('move')  
