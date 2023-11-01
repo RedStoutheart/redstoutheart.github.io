@@ -145,3 +145,63 @@ Car is already stopped!
 
 THANK YOU FOR PLAYING
 ```
+
+
+
+***********
+<font size="+3">Random Dice Program:</font>
+```python
+import random  
+# Dice is a type  
+# roll is a defined in Dice class  
+  
+  
+class Dice:  
+    def roll(self):  
+        number = (1, 2, 3, 4, 5, 6)  
+        return random.choice(number), random.choice(number)
+  
+  
+dice1 = Dice()  
+print(dice1.roll())
+```
+or
+```python
+import random  
+# Dice is a type  
+# roll is a defined in Dice class  
+  
+  
+class Dice:  
+    def roll(self):  
+        first = random.randint(1,6)
+        second = random.randint(1,6)
+        return first, second  
+  
+  
+dice1 = Dice()  
+print(dice1.roll())
+```
+or
+```python
+import random  
+# Dice is a type  
+# roll is a defined in Dice class  
+  
+class Dice:  
+  
+    def roll(number):  
+        number = (1, 2, 3, 4, 5, 6)  
+        print(f"({random.choice(number)},{random.choice(number)})")  
+
+  
+dice1 = Dice()  
+dice1.roll()
+```
+
+Run:
+```
+(5,4)
+```
+
+This value will change every time the program runs because of the randomisation we made for dice values (roll)
