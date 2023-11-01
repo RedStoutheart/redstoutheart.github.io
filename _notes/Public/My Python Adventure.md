@@ -462,7 +462,7 @@ print("Finish")
 ```
 
 
-Emoji Converter with making it a function to make that code reusable
+Emoji Converter but this time making it a function to make that code reusable.
 ```python
 def emoji_converter(message):  
     words = message.split(' ')  
@@ -539,5 +539,115 @@ Run
 15
 move
 draw
+```
+
+******
+
+Class Summay
+```python
+  
+import math    # If we import a library such as math  
+               # what we basically do is to import bunch of classes to our code but simplified  
+  
+print('What can do what?')  
+class Mammal:  
+    def walk(self):              # Functions defined inside of classes are called modules  
+        print("Can walk")  
+  
+  
+    def walk(self):  
+        print("Can walk")  
+  
+class Dog(Mammal):  
+    def bark(self):  
+        print("Can Bark")  
+  
+class Cat(Mammal):  
+    pass                         # Pass means noting it is there to indicate                                      # That it doesn't have anything in it  
+                                 # Pass is basically there to pass the class
+
+dog1 = Dog()  
+print('Dog')  
+dog1.walk()  
+dog1.bark()  
+  
+cat1 = Cat()  
+print('Cat')  
+cat1.walk()
+```
+
+*******
+
+**Modules**
+
+A module is a file with some Python code. We use modules to break up our
+
+program into multiple files. This way, our code will be better organized. We won’t
+
+have one gigantic file with a million lines of code in it!
+
+There are 2 ways to import modules: we can import the entire module, or specific
+
+objects in a module.
+
+```python
+# importing the entire converters module
+
+import converters
+
+converters.kg_to_lbs(5)
+
+# importing one function in the converters module
+
+from converters import kg_to_lbs
+
+kg_to_lbs(5)
+```
+
+
+
+
+
+
+************
+
+in app.py file
+```python
+from utils import find_max  
+  
+numbers = [1, 42, 54, 40, 25]  
+max_ = find_max(numbers)  
+print(max_)
+```
+
+
+in utils.py file
+```python
+def find_max(numbers):  
+    max_ = numbers[0]  
+    for numbers in numbers:  
+        if numbers > max_:  
+            max_ = numbers  
+    return max_
+```
+
+
+*******
+
+**Packages**
+
+A package is a directory with __init__.py in it. It can contain one or more modules.
+```python
+# importing the entire sales module
+
+from ecommerce import sales
+
+sales.calc_shipping()
+
+# importing one function in the sales module
+
+from ecommerce.sales import calc_shipping
+
+calc_shipping()
 ```
 
