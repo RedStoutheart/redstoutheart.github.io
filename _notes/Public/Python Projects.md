@@ -4,7 +4,7 @@ feed: show
 date: 5-11-2023
 ---
 MultiplayerDiceGame
-folder/index. html[[RiskyRoll.py]]folder/
+![[RiskyRoll.py]]
 
 
 Automated exel Spreadsheet
