@@ -11,4 +11,4 @@ MultiplayerDiceGame<br>
 
 Automated exel Spreadsheet<br>
 
-<a href="https://github.com/RedStoutheart/Python-Projects/blob/main/Exel-Spreadsheet.py"target="_blank">exel_spredsheet.py</a>
+<a href="https://github.com/RedStoutheart/Python-Projects/blob/main/Exel-Spreadsheet.py" target="_blank">exel_spredsheet.py</a>
