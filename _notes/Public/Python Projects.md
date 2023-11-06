@@ -4,7 +4,7 @@ feed: show
 date: 5-11-2023
 ---
 MultiplayerDiceGame
-![[RiskyRoll.py]]
+<a href="/Users/yigitolcar/Desktop//Dev_P/Dev_P.code-workspace"download="RiskyRoll.py">RiskyRoll.py</a>
 
 
 Automated exel Spreadsheet
