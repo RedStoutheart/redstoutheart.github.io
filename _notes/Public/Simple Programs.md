@@ -1,5 +1,5 @@
 ---
-title: Simple Programs Made With Python
+title: Simple Programs
 feed: show
 date: 23-10-2023
 ---

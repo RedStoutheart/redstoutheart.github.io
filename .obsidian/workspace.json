@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md",
+                "file": "_notes/Public/Simple Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md",
+                "file": "_notes/Public/Simple Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md",
+                "file": "_notes/Public/Simple Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/My Python Adventure.md"
+                "file": "_notes/Public/Simple Programs.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "aac010409149b72b",
   "lastOpenFiles": [
+    "_notes/Public/My Python Adventure.md",
     "_notes/Public/Python Projects.md",
     "exel_spredsheet/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__/wait.cpython-312.pyc",
     "exel_spredsheet/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__/url.cpython-312.pyc",
@@ -159,8 +160,7 @@
     "exel_spredsheet/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__/response.cpython-312.pyc",
     "exel_spredsheet/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__/request.cpython-312.pyc",
     "exel_spredsheet/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__/queue.cpython-312.pyc",
-    "_notes/Public/My Python Adventure.md",
-    "_notes/Public/Simple Programs Made with Python.md",
+    "_notes/Public/Simple Programs.md",
     "_notes/Public/Deniz Bas.md",
     "_notes/Public/Credits.md",
     "Untitled 1.md",
