@@ -23,11 +23,12 @@ How to Play
 -If you roll 1 then your total score will set to 0!
 -This game can be played with at least 2 players and up to 4!
 -Have Fun!\n''')
+        time.sleep(10)
         
 except ValueError:
     pass
 
-time.sleep(10)
+
 
 while True:
     players = input("Enter the number of players(1-4): ")
@@ -51,7 +52,7 @@ while max(player_scores) <= max_score:
         while True:
             should_roll = input("\nWould you like to roll (y)? ")
             
-            if should_roll.lower() != 'y':
+            if should_roll.lower() != 'y' or 'yy':
                 break
             value = roll()
 
